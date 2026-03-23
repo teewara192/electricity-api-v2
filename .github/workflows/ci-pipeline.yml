@@ -52,4 +52,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/node-helloworld:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/electricity-api-v2:latest
